@@ -28,5 +28,5 @@ jobs:
     - name: Deploy to Azure Web App (Raw Code for Oryx)
       uses: azure/webapps-deploy@v2
       with:
-        app-name: 'app-oryx-build' # ඔයාගේ App Service නම
+        app-name: 'app-oryx-build-Federated-Identity' # ඔයාගේ App Service නම
         package: .
